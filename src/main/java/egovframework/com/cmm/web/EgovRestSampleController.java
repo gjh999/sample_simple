@@ -78,7 +78,7 @@ public class EgovRestSampleController {
 
 		Map<String, Object> resultMap = sampleService.selectTestDataList(testData);
 
-		System.out.println("testApi01 테스트 끝 (target2)");
+		System.out.println("testApi01 테스트 끝222 (target2)");
 		
 		String rspnsCode 	= resultMap.get("rspnsCode").toString();
 		String rspnsMssage 	= resultMap.get("rspnsMssage").toString();
