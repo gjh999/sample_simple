@@ -68,7 +68,7 @@ public class EgovRestSampleController {
 	@RequestMapping(value = "/api/testApi01.do", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<String> testApi01(HttpServletRequest request) throws Exception {
 		
-		System.out.println("testApi01 테스트 시작 (target2)");
+		System.out.println("testApi01 테스트 시작 (target1)");
 		
 		EgovRequestWrapper m = new EgovRequestWrapper(request);
 		request = (HttpServletRequest) m;
@@ -78,7 +78,7 @@ public class EgovRestSampleController {
 
 		Map<String, Object> resultMap = sampleService.selectTestDataList(testData);
 
-		System.out.println("testApi01 테스트 끝222 (target2)");
+		System.out.println("testApi01 테스트 끝111 (target1)");
 		
 		String rspnsCode 	= resultMap.get("rspnsCode").toString();
 		String rspnsMssage 	= resultMap.get("rspnsMssage").toString();

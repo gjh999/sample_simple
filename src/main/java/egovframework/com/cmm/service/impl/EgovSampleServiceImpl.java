@@ -73,7 +73,7 @@ public class EgovSampleServiceImpl extends EgovAbstractServiceImpl implements Eg
     	
     	Map<String, Object >mapData1 = new HashMap<String,Object>();
     	mapData1.put("pvsnDt", 			"20240213");
-    	mapData1.put("rcptnInstCdNm", 	"교육부_target2");
+    	mapData1.put("rcptnInstCdNm", 	"교육부_target1");
     	mapData1.put("pvsnPrpsCtt",		"정보주체 신청 및 실적정보 제공");
     	mapData1.put("pvsnInfoCtt", 	"봉사 실적 정보");
     	mapData1.put("pvsnBasis", 		"개인정보보호법 및 자원봉사활동 기본법");
@@ -82,7 +82,7 @@ public class EgovSampleServiceImpl extends EgovAbstractServiceImpl implements Eg
     	
     	Map<String, Object >mapData2 = new HashMap<String,Object>();
     	mapData2.put("pvsnDt", 			"20240206");
-    	mapData2.put("rcptnInstCdNm", 	"보건복지부_target2");
+    	mapData2.put("rcptnInstCdNm", 	"보건복지부_target1");
     	mapData2.put("pvsnPrpsCtt",		"정보주체 신청 및 실적정보 제공");
     	mapData2.put("pvsnInfoCtt", 	"봉사 실적 정보");
     	mapData2.put("pvsnBasis", 		"개인정보보호법 및 자원봉사활동 기본법");
@@ -91,7 +91,7 @@ public class EgovSampleServiceImpl extends EgovAbstractServiceImpl implements Eg
     	
     	Map<String, Object >mapData3 = new HashMap<String,Object>();
     	mapData3.put("pvsnDt", 			"20230102");
-    	mapData3.put("rcptnInstCdNm", 	"교육부_target2");
+    	mapData3.put("rcptnInstCdNm", 	"교육부_target1");
     	mapData3.put("pvsnPrpsCtt",		"정보주체 신청 및 실적정보 제공");
     	mapData3.put("pvsnInfoCtt", 	"봉사 실적 정보");
     	mapData3.put("pvsnBasis", 		"개인정보보호법 및 자원봉사활동 기본법");
